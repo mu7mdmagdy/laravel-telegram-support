@@ -1,0 +1,42 @@
+{
+    "name": "mu7mdmagdy/laravel-telegram-support",
+    "description": "A Laravel package providing a Telegram-powered customer support inbox, a customer chat widget, and a Telegram account-linking component.",
+    "keywords": [
+        "laravel",
+        "telegram",
+        "support",
+        "chat",
+        "widget",
+        "bot"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mohamed Magdy",
+            "email": "dev@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0|^13.0",
+        "illuminate/routing": "^11.0|^12.0|^13.0",
+        "illuminate/database": "^11.0|^12.0|^13.0",
+        "illuminate/console": "^11.0|^12.0|^13.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MoMagdy\\TelegramSupport\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MoMagdy\\TelegramSupport\\TelegramSupportServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

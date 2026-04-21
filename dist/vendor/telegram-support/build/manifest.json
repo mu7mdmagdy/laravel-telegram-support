@@ -1,0 +1,51 @@
+{
+  "__plugin-vue_export-helper-zi84SQhH.js": {
+    "file": "assets/_plugin-vue_export-helper-zi84SQhH.js",
+    "name": "_plugin-vue_export-helper"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-COh5DEAs.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BZ_SPsAD.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-zi84SQhH.js"
+    ],
+    "css": [
+      "assets/app-z0xoexrj.css"
+    ]
+  },
+  "resources/js/connect.js": {
+    "file": "assets/connect-x3ajZOAQ.js",
+    "name": "connect",
+    "src": "resources/js/connect.js",
+    "isEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-zi84SQhH.js"
+    ],
+    "css": [
+      "assets/connect-CadxgryT.css"
+    ]
+  },
+  "resources/js/widget.js": {
+    "file": "assets/widget-DOStGzgA.js",
+    "name": "widget",
+    "src": "resources/js/widget.js",
+    "isEntry": true,
+    "imports": [
+      "__plugin-vue_export-helper-zi84SQhH.js"
+    ],
+    "css": [
+      "assets/widget-O4Ke4VMD.css"
+    ]
+  }
+}
